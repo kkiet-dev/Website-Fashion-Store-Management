@@ -62,5 +62,62 @@ In order to ensure that the Laravel community is welcoming to all, please review
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
+Website Fashion Store Management
+
+This project is an online sales and management system for a fashion store, built with Laravel.
+
+System Requirements
+
+PHP >= 8.1
+
+Laravel 10.X
+
+Composer
+
+MySQL or MariaDB
+
+Node.js and npm
+
+Installation and Setup
+
+1. Clone the repository
+
+git clone https://github.com/kkiet-dev/Website-Fashion-Store-Management.git
+cd Website-Fashion-Store-Management
+
+2. Install dependencies
+
+composer install
+npm install
+
+3. Configure the environment file
+
+cp .env.example .env
+
+Then, open the .env file and update the database information.
+
+4. Database
+
+Navigate to the following path to retrieve the database file:
+
+Website-Fashion-Store-Management/database/sale-manager.sql
+
+5. Start Laravel server
+
+php artisan serve
+
+Open your browser and access: http://127.0.0.1:8000
+
+Default Accounts
+
+Admin:
+
+Email: admin@gmail.com
+
+Password: 12345678
+
+License
+
+This project is released under the MIT License.
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
