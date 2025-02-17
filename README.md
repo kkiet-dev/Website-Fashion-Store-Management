@@ -61,8 +61,8 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
-Website Fashion Store Management
+## Website Fashion Store Management
+
 
 This project is an online sales and management system for a fashion store, built with Laravel.
 
