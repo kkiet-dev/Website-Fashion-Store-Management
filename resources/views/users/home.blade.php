@@ -47,20 +47,20 @@
 </style> --}}
 </head>
 
-<body class="index-page">
+<body class="index-page " style="height: 100%">
   
    <!-- Navbar -->
-<div class="container position-sticky z-index-sticky top-0">
-  <div class="row">
+<div class="container position-sticky z-index-sticky ">
+  {{-- <div class="row"> --}}
     <div class="col-12">
       @include('users.layouts.navbar')
   <!-- End Navbar -->
     </div>
-  </div>
+  {{-- </div> --}}
 </div>
 
 
-<section class="pt-0 pb-4" id="count-stats">
+<section class="pb-4" id="count-stats">
 
   
     @yield('introl_content')
