@@ -35,6 +35,10 @@ use App\Http\Controllers\Auth;
 //     return view('/login');
 // });
 
+route::get('/tetsAPI', [MapController::class, 'tetsAPI']);
+
+route::get('/testProductAPI', [MapController::class, 'getProductAPI']);
+
 Route::get('/select-address', [MapController::class, 'showMap'])->name('map.select');
 Route::post('/update-address', [MapController::class, 'updateAddress'])->name('update.address');
 Route::post('/update-temp-address', [MapController::class, 'updateTempAddress'])->name('update.temp.address');

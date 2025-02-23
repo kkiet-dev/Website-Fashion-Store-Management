@@ -54,9 +54,7 @@ class UserController extends Controller
             $image->storeAs('public/products', $imageName);
     
             // Xóa ảnh cũ nếu tồn tại
-            // if (!empty($product->image)) {
-            //     Storage::delete('products/' . $product->image);
-            // }
+            
             if (!empty($user->image) && File::exists(public_path('storage/products/' . $user->image))) {
                 File::delete(public_path('storage/products/' . $user->image));
             }

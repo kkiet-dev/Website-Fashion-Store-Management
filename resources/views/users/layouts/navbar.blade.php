@@ -1,3 +1,6 @@
+<style>
+  
+</style>
 <nav class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
     <div class="container-fluid px-0">
       <a class="navbar-brand font-weight-bolder ms-sm-3" href="https://demos.creative-tim.com/soft-ui-design-system/index.html" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
@@ -12,6 +15,15 @@
       </button>
       <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
         <ul class="navbar-nav navbar-nav-hover ms-lg-12 ps-lg-5 w-100">
+{{-- 
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a class=" ps-2 d-flex align-items-center">
+              <form action="{{ route('contacts.show') }}" method="GET" class="form-inline d-flex">
+                <input type="text" name="search" class="form-control" placeholder="Tìm kiếm..." value="{{ request('search') }}">
+                <button type="submit" class="btn btn-primary mt-3">seacrh</button>
+              </form>
+            </a>
+          </li> --}}
 
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
